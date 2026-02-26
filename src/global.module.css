@@ -1,0 +1,39 @@
+
+
+#top_nav {
+    background-color: snow;
+    color: grey;
+    font-weight: bold;
+    padding: .5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px darkgrey;
+    position: sticky;
+    top: 0;
+}
+
+#main {
+    margin: 1rem;
+}
+
+
+
+.btn {
+    border: .1rem solid rebeccapurple;
+    color: rebeccapurple;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: small;
+    transition-duration: 100ms;
+}
+
+.btn:hover {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+.btn:active {
+    opacity: 60%;
+}

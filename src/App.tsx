@@ -1,12 +1,13 @@
 import Nav from './navigation/nav'
 import Main from './views/main'
+import './global.css'
 
 function App() {
 
   return (
-    <div>
-      <Nav />
-      <Main />
+    <div className='root'>
+        <Nav />
+        <Main />
     </div>
   )
 }
